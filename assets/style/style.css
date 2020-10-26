@@ -138,6 +138,12 @@ a.active, a:hover {
     left: 0;
   }
 }
+@media screen and (max-width: 360px) {
+  label.logo {
+    font-size: 25px;
+    padding: -15px 100px;
+  }
+}
 .welcome-container {
   display: grid;
   height: 450px;
@@ -196,6 +202,20 @@ a.active, a:hover {
   .welcome-container .welcomen--description p {
     margin-left: 15px;
     margin-right: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .welcome-container .welcome--image img {
+    margin-left: 50px;
+    width: 300px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .welcome-container .welcome--image img {
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
   }
 }
 .main-container {
@@ -320,6 +340,18 @@ a.active, a:hover {
     margin-left: 150px;
   }
 }
+@media screen and (max-width: 414px) {
+  .main-container .section-cards {
+    display: block;
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .main-container .section-cards {
+    display: block;
+    margin-left: 55px;
+  }
+}
 .container-contact {
   display: block;
   width: 50%;
@@ -352,6 +384,36 @@ a.active, a:hover {
   font-size: 15px;
 }
 
+@media screen and (max-width: 414px) {
+  .container-contact {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container-contact {
+    width: 100%;
+  }
+
+  .contact h3,
+.contact form label {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .container-contact .contact input[type=email] {
+    width: 329px;
+    margin-left: 15px;
+  }
+
+  .container-contact .contact textarea {
+    width: 320px;
+    margin-left: 15px;
+  }
+
+  .container-contact .contact input[type=button] {
+    margin-left: 15px;
+  }
+}
 .section-movie-container {
   width: 80%;
   display: grid;

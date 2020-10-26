@@ -151,3 +151,21 @@
         margin-left: 150px;
     }
 }
+
+@media screen and(max-width: 414px){
+    .main-container .section-cards {
+        display: block;
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+@media screen and(max-width: 360px){
+    .main-container .section-cards {
+        display: block;
+        margin-left: 55px;
+    }
+}

@@ -35,3 +35,36 @@
         font-size: 15px;
     }
 }
+
+@media screen and(max-width: 414px){
+    .container-contact{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width: 360px){
+
+    .container-contact{
+        width: 100%;
+    }
+    
+    .contact h3,
+    .contact form label{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .container-contact .contact input[type="email"]{
+        width: 329px;
+        margin-left: 15px;
+    }
+
+    .container-contact .contact textarea{
+        width: 320px;
+        margin-left: 15px;
+    }
+
+    .container-contact .contact input[type="button"]{
+        margin-left: 15px;
+    }
+}
